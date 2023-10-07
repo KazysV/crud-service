@@ -2,6 +2,7 @@
   "name": "crud-service",
   "version": "1.0.0",
   "description": "this is repo for paas crud service hosted on digital ocean",
+  "start": "node index.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
