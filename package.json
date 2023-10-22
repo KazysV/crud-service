@@ -1,0 +1,23 @@
+{
+  "name": "crud-service",
+  "version": "1.0.0",
+  "description": "this is repo for paas crud service hosted on digital ocean",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start_local": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7",
+    "pg": "^8.11.3",
+    "tailwindcss": "^3.3.3"
+  }
+}

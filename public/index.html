@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Groceries Web app by KV</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <h1>Grocery List</h1>
+
+    <form id="add-grocery-form">
+        <div class="form-group">
+            <label for="name">Name:</label><input type="text" id="name" required>
+        </div>
+        <div class="form-group">  
+            <label for="ammount">Quantity:</label><input type="number" id="ammount" required>
+        </div>
+        <div class="form-group">
+            <button type="submit">Add Grocery</button>
+        </div>
+    </form>
+    <div id="grocery-list">
+        <ul></ul>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
